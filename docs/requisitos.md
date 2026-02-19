@@ -1,38 +1,68 @@
-# Requisitos do Sistema
+name: "Requisito Funcional (RF)"
+about: Descrever uma funcionalidade que o sistema deve possuir
+title: "RFXX — "
+labels: ["RF"]
+---
 
-## 1. Requisitos Funcionais (RF)
+# 📝 Requisito Funcional — RFXX  
+(Altere RFXX para o número apropriado)
 
-### RF01 — Login do usuário
-O sistema deve permitir que o usuário realize login com e-mail e senha.
+## 🎯 Descrição
+Descreva claramente o que o sistema deve fazer.
 
-### RF02 — Recuperar senha
-O sistema deve permitir que o usuário solicite recuperação de senha por e-mail.
-
-### RF03 — Atualização de perfil
-O usuário pode alterar nome, foto e dados pessoais.
+Exemplo:  
+_O sistema deve permitir que o usuário realize login com e-mail e senha._
 
 ---
 
-## 2. Requisitos Não Funcionais (RNF)
-
-### RNF01 — Tempo de resposta
-O sistema deve carregar telas principais em até **2 segundos**.
-
-### RNF02 — Segurança
-As senhas devem ser armazenadas usando hash seguro (ex.: bcrypt).
-
-### RNF03 — Compatibilidade
-O sistema deve funcionar nos navegadores Chrome, Edge e Firefox.
+## 🎯 Objetivo de Negócio
+Por que esse requisito existe?
 
 ---
 
-## 3. Regras de Negócio (RN)
+## ✔ Critérios de Aceitação
+- [ ] Critério 1  
+- [ ] Critério 2  
+- [ ] Critério 3  
 
-### RN01 — Maioridade
-Para criar uma conta, o usuário deve ter mais de 18 anos.
+---
 
-### RN02 — Bloqueio por inatividade
-Usuários inativos por mais de 90 dias devem ser marcados como inativos.
+## 🔗 Casos de Uso Relacionados
+- UCXX — Nome do caso de uso
 
-### RN02 — Limite de tentativas de login
-Após 5 tentativas inválidas, a conta deve ser temporariamente bloqueada.
+---
+
+## 📌 Observações
+(Se necessário)
+
+---
+name: "Requisito Não Funcional (RNF)"
+about: Definir uma característica de qualidade do sistema
+title: "RNFXX — "
+labels: ["RNF"]
+---
+
+# 🛡 Requisito Não Funcional — RNFXX  
+(Altere RNFXX para o número apropriado)
+
+## 📝 Descrição
+Exemplo:  
+_O sistema deve responder às requisições em até 2 segundos._
+
+---
+
+## 🧪 Critério de Verificação
+Descreva como esse requisito será testado/validado.
+
+---
+
+## 🔄 Área Impactada
+- [ ] Performance  
+- [ ] Segurança  
+- [ ] Usabilidade  
+- [ ] Compatibilidade  
+- [ ] Outro: _________
+
+---
+
+## 📌 Observações
