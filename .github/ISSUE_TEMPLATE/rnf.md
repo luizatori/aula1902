@@ -1,4 +1,3 @@
-
 ---
 name: "Requisito Não Funcional (RNF)"
 about: Definir uma característica de qualidade do sistema
